@@ -1,0 +1,47 @@
+.toggle-1 {
+  @media (min-width: 376px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .container {
+      width: calc(100% / 3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      header {
+        margin-left: 35px;
+        .logo {
+          font-size: 16px;
+          margin-top: 1rem;
+        }
+        .themes {
+          font-size: 0.5rem;
+          .color-theme {
+            .numbers {
+              p {
+                margin-right: 22px;
+              }
+            }
+          }
+        }
+      }
+      .screen {
+        margin: 0;
+      }
+      main {
+        margin-left: 0;
+      }
+      .nums-and-operators {
+        gap: 1rem 1rem;
+        .keys {
+          width: 80px;
+        }
+        .reset-key, .equal-key {
+          width: 182px;
+        }
+      }
+    }
+  }
+}

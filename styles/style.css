@@ -1,0 +1,432 @@
+header {
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+  margin-left: 1.5rem;
+}
+
+header .logo {
+  margin-top: 0.5rem;
+  font-size: 32px;
+}
+
+header .themes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+}
+
+header .themes .theme {
+  margin: 1.2rem 0.8rem 0 0;
+}
+
+header .themes .color-theme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .themes .color-theme .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .themes .color-theme .numbers p {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+header .themes .color-theme .cyrcle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #232c43;
+  width: 60px;
+  height: 20px;
+  border-radius: 300px;
+}
+
+header .themes .color-theme .cyrcle .theme-1 {
+  background-color: #d03f2f;
+  width: calc(100% / 4.2);
+  height: calc(100% / 1.5);
+  margin: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 88%;
+  height: 100px;
+  background-color: #182034;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 6%;
+}
+
+.screen .content {
+  margin: 20px;
+}
+
+main {
+  background-color: #182034;
+  width: 88%;
+  margin-left: 6%;
+  margin-top: 25px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .nums-and-operators {
+  width: 88%;
+  height: 100%;
+  margin: 6%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem 1.5rem;
+}
+
+main .nums-and-operators .keys {
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  padding: 5px;
+  background-color: #eae3dc;
+  -webkit-box-shadow: 0 2px 2px #b4a597;
+          box-shadow: 0 2px 2px #b4a597;
+  border: 1px #b4a597;
+  color: #444b5a;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+main .nums-and-operators .keys:hover {
+  background-color: #d7c9bc;
+}
+
+main .nums-and-operators .keys:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+main .nums-and-operators .delete-key, main .nums-and-operators .reset-key {
+  background-color: #637097;
+  border: 1px #404e72;
+  -webkit-box-shadow: 0 2px 2px #404e72;
+          box-shadow: 0 2px 2px #404e72;
+  color: white;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+main .nums-and-operators .delete-key:hover, main .nums-and-operators .reset-key:hover {
+  background-color: #4f5978;
+}
+
+main .nums-and-operators .equal-key {
+  background-color: #d03f2f;
+  border: 1px #93261a;
+  -webkit-box-shadow: 0 2px 2px #93261a;
+          box-shadow: 0 2px 2px #93261a;
+  color: white;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+main .nums-and-operators .equal-key:hover {
+  background-color: #a63326;
+}
+
+main .nums-and-operators .reset-key, main .nums-and-operators .equal-key {
+  grid-column: span 2;
+  width: 130px;
+}
+
+@media (min-width: 376px) {
+  .toggle-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .toggle-1 .container {
+    width: calc(100% / 3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .toggle-1 .container header {
+    margin-left: 35px;
+  }
+  .toggle-1 .container header .logo {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .toggle-1 .container header .themes {
+    font-size: 0.5rem;
+  }
+  .toggle-1 .container header .themes .color-theme .numbers p {
+    margin-right: 22px;
+  }
+  .toggle-1 .container .screen {
+    margin: 0;
+  }
+  .toggle-1 .container main {
+    margin-left: 0;
+  }
+  .toggle-1 .container .nums-and-operators {
+    gap: 1rem 1rem;
+  }
+  .toggle-1 .container .nums-and-operators .keys {
+    width: 80px;
+  }
+  .toggle-1 .container .nums-and-operators .reset-key, .toggle-1 .container .nums-and-operators .equal-key {
+    width: 182px;
+  }
+}
+
+.toggle-2 {
+  background-color: #e6e6e6 !important;
+}
+
+.toggle-2 header {
+  color: #35352c;
+}
+
+.toggle-2 header .themes .color-theme .cyrcle {
+  background-color: #d1cccc;
+}
+
+.toggle-2 header .themes .color-theme .cyrcle .theme-1 {
+  visibility: hidden;
+}
+
+.toggle-2 header .themes .color-theme .cyrcle .theme-2 {
+  background-color: #ca5502;
+  width: calc(100% / 4.2);
+  height: calc(100% / 1.5);
+  margin: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.toggle-2 .screen {
+  background-color: #ededed;
+  color: #35352c;
+}
+
+.toggle-2 main {
+  background-color: #d1cccc;
+}
+
+.toggle-2 main .nums-and-operators .keys {
+  background-color: #e5e4e1;
+  -webkit-box-shadow: 0 2px 2px #a69d91;
+          box-shadow: 0 2px 2px #a69d91;
+  color: #35352c;
+}
+
+.toggle-2 main .nums-and-operators .keys:hover {
+  background-color: #cdcbc6;
+}
+
+.toggle-2 main .nums-and-operators .delete-key, .toggle-2 main .nums-and-operators .reset-key {
+  background-color: #377f86;
+  border: 1px #1b5f65;
+  -webkit-box-shadow: 0 2px 2px #1b5f65;
+          box-shadow: 0 2px 2px #1b5f65;
+  color: white;
+}
+
+.toggle-2 main .nums-and-operators .delete-key:hover, .toggle-2 main .nums-and-operators .reset-key:hover {
+  background-color: #285d62;
+}
+
+.toggle-2 main .nums-and-operators .equal-key {
+  background-color: #ca5502;
+  border: 1px #893901;
+  -webkit-box-shadow: 0 2px 2px #893901;
+          box-shadow: 0 2px 2px #893901;
+  color: white;
+}
+
+.toggle-2 main .nums-and-operators .equal-key:hover {
+  background-color: #974002;
+}
+
+.toggle-2 .attribution {
+  color: #35352c;
+}
+
+.toggle-3 {
+  background-color: #160628 !important;
+}
+
+.toggle-3 header {
+  color: #ffe53d;
+}
+
+.toggle-3 header .themes .color-theme .cyrcle {
+  background-color: #1d0934;
+  position: relative;
+}
+
+.toggle-3 header .themes .color-theme .cyrcle .theme-2 {
+  visibility: hidden;
+}
+
+.toggle-3 header .themes .color-theme .cyrcle .theme-3 {
+  background-color: #00e0d1;
+  width: calc(100% / 4.2);
+  height: calc(100% / 1.5);
+  margin: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: 1px;
+}
+
+.toggle-3 header .themes .color-theme .cyrcle .theme-1 {
+  visibility: hidden;
+}
+
+.toggle-3 .screen {
+  background-color: #1d0934;
+  color: #ffe53d;
+}
+
+.toggle-3 main {
+  background-color: #1d0934;
+}
+
+.toggle-3 main .nums-and-operators .keys {
+  background-color: #341c4f;
+  -webkit-box-shadow: 0 2px 2px #871c9c;
+          box-shadow: 0 2px 2px #871c9c;
+  color: #ffe53d;
+}
+
+.toggle-3 main .nums-and-operators .keys:hover {
+  background-color: #1b0f29;
+}
+
+.toggle-3 main .nums-and-operators .delete-key, .toggle-3 main .nums-and-operators .reset-key {
+  background-color: #58077d;
+  border: 1px #bc15f4;
+  -webkit-box-shadow: 0 2px 2px #bc15f4;
+          box-shadow: 0 2px 2px #bc15f4;
+  color: white;
+}
+
+.toggle-3 main .nums-and-operators .delete-key:hover, .toggle-3 main .nums-and-operators .reset-key:hover {
+  background-color: #36044d;
+}
+
+.toggle-3 main .nums-and-operators .equal-key {
+  background-color: #00e0d1;
+  border: 1px #6cf9f2;
+  -webkit-box-shadow: 0 2px 2px #6cf9f2;
+          box-shadow: 0 2px 2px #6cf9f2;
+  color: #1b2428;
+}
+
+.toggle-3 main .nums-and-operators .equal-key:hover {
+  background-color: #00ada2;
+}
+
+.toggle-3 .attribution {
+  color: #ffe53d;
+}
+
+.hidden header .themes .color-theme .numbers .theme-1 {
+  -webkit-animation: fadeout 2s;
+          animation: fadeout 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.hidden header .themes .color-theme .cyrcle .theme-1 {
+  -webkit-animation: fadeout 2s;
+          animation: fadeout 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeout {
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.toggle-1 {
+  font-family: 'Spartan', sans-serif;
+  background-color: #3a4764;
+  color: white;
+  text-shadow: 0.5px 0 1px #b4a597;
+}
+/*# sourceMappingURL=style.css.map */

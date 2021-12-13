@@ -1,0 +1,68 @@
+.toggle-3 {
+  background-color: hsl(268, 75%, 9%) !important;
+  header {
+    color: hsl(52, 100%, 62%);
+    .themes {
+      .color-theme {
+        .cyrcle {
+          background-color: hsl(268, 71%, 12%);
+          position: relative;
+          .theme-2 {
+            visibility: hidden;
+          }
+          .theme-3 {
+            background-color: hsl(176, 100%, 44%);
+            width: calc(100% / 4.2);
+            height: calc(100% / 1.5);
+            margin: 3px;
+            border-radius: 50%;
+            cursor: pointer;
+            position: absolute;
+            right: 1px;
+          }
+          .theme-1 {
+            visibility: hidden;
+          }
+        }
+      }
+    }
+  }
+  .screen {
+    background-color: hsl(268, 71%, 12%);
+    color: hsl(52, 100%, 62%);
+  }
+  main {
+    background-color: hsl(268, 71%, 12%);
+    .nums-and-operators {
+      .keys {
+        background-color: hsl(268, 47%, 21%);
+        box-shadow: 0 2px 2px hsl(290, 70%, 36%);
+        color: hsl(52, 100%, 62%);
+        &:hover {
+          background-color: hsl(268, 47%, 11%);
+        }
+      }
+      .delete-key, .reset-key {
+        background-color: hsl(281, 89%, 26%);
+        border: 1px hsl(285, 91%, 52%);
+        box-shadow: 0 2px 2px hsl(285, 91%, 52%);
+        color: hsl(0, 0, 100%);
+        &:hover {
+          background-color: hsl(281, 89%, 16%);
+        }
+      }
+      .equal-key {
+        background-color: hsl(176, 100%, 44%);
+        border: 1px hsl(177, 92%, 70%);
+        box-shadow: 0 2px 2px hsl(177, 92%, 70%);
+        color: hsl(198, 20%, 13%);
+        &:hover {
+          background-color: hsl(176, 100%, 34%);
+        }
+      }
+    }
+  }
+  .attribution {
+    color: hsl(52, 100%, 62%);
+  }
+}

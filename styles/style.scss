@@ -1,0 +1,21 @@
+@import './header';
+@import './box-field';
+@import './main';
+@import './desktop';
+@import './themes/theme-2';
+@import './themes/theme-3';
+@import './animation';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.toggle-1 {
+  font-family: 'Spartan', sans-serif;
+  background-color: hsl(222, 26%, 31%);
+  color: hsl(0, 0, 100%);
+  text-shadow: 0.5px 0 1px hsl(28, 16%, 65%);
+}
+

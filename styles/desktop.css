@@ -1,0 +1,62 @@
+@media (min-width: 376px) {
+  .toggle-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .toggle-1 .container {
+    width: calc(100% / 3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .toggle-1 .container header {
+    margin-left: 35px;
+  }
+  .toggle-1 .container header .logo {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .toggle-1 .container header .themes {
+    font-size: 0.5rem;
+  }
+  .toggle-1 .container header .themes .color-theme .numbers p {
+    margin-right: 22px;
+  }
+  .toggle-1 .container .screen {
+    margin: 0;
+  }
+  .toggle-1 .container main {
+    margin-left: 0;
+  }
+  .toggle-1 .container .nums-and-operators {
+    gap: 1rem 1rem;
+  }
+  .toggle-1 .container .nums-and-operators .keys {
+    width: 80px;
+  }
+  .toggle-1 .container .nums-and-operators .reset-key, .toggle-1 .container .nums-and-operators .equal-key {
+    width: 182px;
+  }
+}
+/*# sourceMappingURL=desktop.css.map */

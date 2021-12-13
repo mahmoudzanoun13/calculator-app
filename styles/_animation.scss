@@ -1,0 +1,27 @@
+.hidden {
+  header {
+    .themes {
+      .color-theme {
+        .numbers {
+          .theme-1 {
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+          }
+        }
+        .cyrcle {
+          .theme-1 {
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeout {
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
