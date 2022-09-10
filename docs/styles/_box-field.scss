@@ -2,12 +2,15 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 100% - 12%;
+  width: 450px;
   height: 100px;
   background-color: hsl(224, 36%, 15%);
   border-radius: 10px;
   margin-top: 30px;
   margin-left: 6%;
+  @media screen and (max-width: 600px) {
+    width: 320px;
+  }
   .content {
     margin: 20px;
   }
